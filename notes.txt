@@ -6,6 +6,8 @@
 * [Online configurator](https://www.massdrop.com/mechanical-keyboards/configurator)
 * [Github wiki with good info on ctrl](https://github.com/LastContinue/ctrl-info/wiki)
 * [Source code master](https://github.com/qmk/qmk_firmware)
+* [RGB feature matrix](https://beta.docs.qmk.fm/features/feature_rgb_matrix)
+* [RGB Light map](https://raw.githubusercontent.com/LastContinue/ctrl-info/master/led_map.png)
 
 MassDrop Configurator (default_md) is the legacy mode. The new default uses the RGB Matrix system
 
