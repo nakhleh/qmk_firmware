@@ -77,6 +77,16 @@ void rgb_matrix_indicators_kb(void)
 {
   led_matrix_indicators();
 }
+
+void rgb_matrix_indicators_user(void)
+{
+  if (IS_HOST_LED_ON(USB_LED_CAPS_LOCK)) {
+    rgb_matrix_set_color(51, RGB_RED);
+  }
+  if (IS_HOST_LED_ON(USB_LED_SCROLL_LOCK)) {
+    rgb_matrix_set_color(15, RGB_RED);
+  }
+}
 #endif // USB_LED_INDICATOR_ENABLE
 
 #endif
